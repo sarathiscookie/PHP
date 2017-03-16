@@ -8,3 +8,4 @@
 require 'class.php';
 $object = new simpleClass();
 $object->method();
+echo (new DateTime())->format('Y-m-d H:i');

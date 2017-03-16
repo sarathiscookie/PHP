@@ -7,7 +7,7 @@
  */
 class simpleClass {
     //property declaration
-    public $var = 'This is a test property';
+    public $var = 'Property declared!';
 
     //method declaration
     public function method()
