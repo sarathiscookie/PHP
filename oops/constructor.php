@@ -6,7 +6,7 @@
  * Time: 9:19 PM
  */
 
-class event
+class Event
 {
     public $title;
     public $description;
@@ -18,5 +18,5 @@ class event
     }
 }
 
-$obj = new event('October', 'Not a season time');
+$obj = new Event('October', 'Not a season time');
 var_dump($obj->title. ' ' .$obj->description);
