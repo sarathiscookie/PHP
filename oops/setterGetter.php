@@ -35,4 +35,6 @@ $user = new Person('Jane Doe');
 
 $user->setAge(30);
 
+//$user->age = 8; // Here user can easily overwrite age. To avoid this we need to use encapsulation
+
 var_dump($user->getAge());
