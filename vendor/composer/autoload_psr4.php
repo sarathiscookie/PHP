@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Tour\\' => array($baseDir . '/namespaceAndAutoloadTwo'),
     'App\\' => array($baseDir . '/namespaceAndAutoload'),
 );
