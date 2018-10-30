@@ -15,4 +15,9 @@ class resort
     {
         return $this->resortName = $resortName;
     }
+
+    public function rooms()
+    {
+        var_dump(5);
+    }
 }

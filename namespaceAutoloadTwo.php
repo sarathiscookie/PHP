@@ -13,6 +13,8 @@ use Tour\guest;
 
 use Tour\resort;
 
+use Tour\availableRooms;
+
 $destination    = new destination();
 
 $guest          = new guest();
@@ -22,4 +24,6 @@ $destination    = new destination();
 
 $resort         = new resort();
 
-var_dump($resort);
+$availableRooms = new availableRooms($resort);
+
+$availableRooms->show();
