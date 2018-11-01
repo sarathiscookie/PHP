@@ -43,6 +43,6 @@ class userControllerData
     }
 }
 
-$userMsg = new userControllerData(new logsToFile());
+$userMsg = new userControllerData(new logsToDatabase);
 
 $userMsg->show();
