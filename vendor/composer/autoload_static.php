@@ -14,6 +14,7 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
         'A' => 
         array (
             'App\\' => 4,
+            'Abstractt\\' => 10,
         ),
     );
 
@@ -25,6 +26,10 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/namespaceAndAutoload',
+        ),
+        'Abstractt\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/abstractNamespaceAutoload',
         ),
     );
 

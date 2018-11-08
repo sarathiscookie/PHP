@@ -2,7 +2,8 @@
   "autoload": {
     "psr-4": {
       "App\\":"namespaceAndAutoload",
-      "Tour\\":"namespaceAndAutoloadTwo"
+      "Tour\\":"namespaceAndAutoloadTwo",
+      "Abstractt\\":"abstractNamespaceAutoload"
     }
   }
 }
