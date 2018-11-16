@@ -9,6 +9,7 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
+            'Traits\\' => 7,
             'Tour\\' => 5,
         ),
         'A' => 
@@ -19,6 +20,10 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
     );
 
     public static $prefixDirsPsr4 = array (
+        'Traits\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/traits',
+        ),
         'Tour\\' => 
         array (
             0 => __DIR__ . '/../..' . '/namespaceAndAutoloadTwo',

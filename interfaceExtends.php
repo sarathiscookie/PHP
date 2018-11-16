@@ -42,6 +42,6 @@ $objOne = new classOne;
 
 $objTwo = new classTwo;
 
-var_dump($objOne->joo()); // I am a class one foo
+var_dump($objOne->joo()); // I am a class one joo
 
 var_dump($objTwo->foo()); // I am class two foo
