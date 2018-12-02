@@ -26,7 +26,7 @@ trait secondMessage {
 class welcomeMsg {
 
     use firstMessage, secondMessage {
-        firstMessage::message insteadof secondMessage;
+        secondMessage::message insteadof firstMessage;
     }
 
     public function symbol()
