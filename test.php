@@ -6,47 +6,35 @@
  * Time: 4:12 PM
  */
 
-class TestVisibility {
+trait firstMessage {
 
-    public $public          = 'public';
-    protected $protected    = 'protected';
-    private $private        = 'private';
-
-    public function publicMethod()
+    public function message()
     {
-        var_dump($this->public);
+        return 'Hello';
     }
 
-    private function privateMethod()
-    {
-        var_dump($this->private);
-    }
+}
 
-    protected function protectedMethod()
+trait secondMessage {
+
+    public function messages()
     {
-        var_dump($this->protected);
+        return 'World';
     }
 }
 
-class test extends TestVisibility {
+class welcomeMsg {
 
-    public $protected = 'protected extended';
+    use firstMessage, secondMessage;
 
-    public function protectedMethod()
+    public function symbol()
     {
-        var_dump($this->protected);
+        return ';';
     }
 }
 
+$obj = new welcomeMsg;
 
-$obj = new TestVisibility;
-
-$objExtend = new test;
-//$obj->privateMethod();
-
-//$obj->protectedMethod();
-
-$objExtend->protectedMethod();
-
+var_dump($obj->message().' '.$obj->messages().' '.$obj->symbol());
 
 
