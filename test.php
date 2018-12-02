@@ -10,22 +10,24 @@ trait firstMessage {
 
     public function message()
     {
-        return 'Hello';
+        return 'Welcome';
     }
 
 }
 
 trait secondMessage {
 
-    public function messages()
+    public function message()
     {
-        return 'World';
+        return 'Hello';
     }
 }
 
 class welcomeMsg {
 
-    use firstMessage, secondMessage;
+    use firstMessage, secondMessage {
+        firstMessage::message insteadof secondMessage;
+    }
 
     public function symbol()
     {
@@ -35,6 +37,6 @@ class welcomeMsg {
 
 $obj = new welcomeMsg;
 
-var_dump($obj->message().' '.$obj->messages().' '.$obj->symbol());
+var_dump($obj->message().' '.$obj->symbol());
 
 
