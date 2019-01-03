@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Traits\\' => array($baseDir . '/traits'),
     'Tour\\' => array($baseDir . '/namespaceAndAutoloadTwo'),
+    'Decorator\\' => array($baseDir . '/DesignPatterns'),
     'App\\' => array($baseDir . '/namespaceAndAutoload'),
     'Abstractt\\' => array($baseDir . '/abstractNamespaceAutoload'),
 );

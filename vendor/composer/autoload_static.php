@@ -12,6 +12,10 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
             'Traits\\' => 7,
             'Tour\\' => 5,
         ),
+        'D' => 
+        array (
+            'Decorator\\' => 10,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -27,6 +31,10 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
         'Tour\\' => 
         array (
             0 => __DIR__ . '/../..' . '/namespaceAndAutoloadTwo',
+        ),
+        'Decorator\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/DesignPatterns',
         ),
         'App\\' => 
         array (

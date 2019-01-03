@@ -4,7 +4,8 @@
       "App\\":"namespaceAndAutoload",
       "Tour\\":"namespaceAndAutoloadTwo",
       "Abstractt\\":"abstractNamespaceAutoload",
-      "Traits\\":"traits"
+      "Traits\\":"traits",
+      "Decorator\\": "DesignPatterns/"
     }
   }
 }
