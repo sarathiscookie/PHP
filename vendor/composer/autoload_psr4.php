@@ -10,5 +10,6 @@ return array(
     'Tour\\' => array($baseDir . '/namespaceAndAutoloadTwo'),
     'Decorator\\' => array($baseDir . '/DesignPatterns'),
     'App\\' => array($baseDir . '/namespaceAndAutoload'),
+    'Adapter\\' => array($baseDir . '/DesignPatterns/adapterPattern'),
     'Abstractt\\' => array($baseDir . '/abstractNamespaceAutoload'),
 );

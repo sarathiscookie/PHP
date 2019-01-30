@@ -19,6 +19,7 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
         'A' => 
         array (
             'App\\' => 4,
+            'Adapter\\' => 8,
             'Abstractt\\' => 10,
         ),
     );
@@ -39,6 +40,10 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/namespaceAndAutoload',
+        ),
+        'Adapter\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/DesignPatterns/adapterPattern',
         ),
         'Abstractt\\' => 
         array (
