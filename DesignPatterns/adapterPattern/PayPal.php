@@ -8,12 +8,12 @@
 
 namespace Adapter;
 
-class Paypal {
+class PayPal {
 
     public $amount;
 
     public function sendPayment($amount)
     {
-        return $amount;
+        return 'Payed using PayPal and Amount is '. $amount;
     }
 }
