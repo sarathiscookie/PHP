@@ -19,15 +19,14 @@ echo $obj->sendPayment(12);*/
 // Inside Adapter Pattern we can call this method and classes connect with this adapter. So If Paypal changed method name, we only change method name in our adapter. It won't affect all modules related to send amount.
 
 use Adapter\PayPalAdapter;
-
-use Adapter\CreditCard;
+use Adapter\CreditCardAdapter;
 
 $payPalAdapter = new PayPalAdapter();
 
 echo $payPalAdapter->pay(1200);
 
-$creditCardAdapter = new CreditCard();
+$creditCardAdapter = new CreditCardAdapter();
 
-echo $creditCardAdapter->payAmount(105);
+echo $creditCardAdapter->pay(1250);
 
 

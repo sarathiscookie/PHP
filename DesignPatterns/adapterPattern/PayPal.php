@@ -14,6 +14,6 @@ class PayPal {
 
     public function sendPayment($amount)
     {
-        return 'Payed using PayPal and Amount is '. $amount;
+        return 'Payed using PayPal and amount is '. $amount . '. ';
     }
 }
