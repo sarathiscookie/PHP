@@ -36,7 +36,7 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
         ),
         'Template\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/TemplatePattern/templatePattern',
+            0 => __DIR__ . '/../..' . '/DesignPatterns/templatePattern',
         ),
         'Decorator\\' => 
         array (

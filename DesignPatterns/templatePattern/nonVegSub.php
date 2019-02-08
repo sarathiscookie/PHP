@@ -13,7 +13,7 @@ class nonVegSub
 {
     public function make()
     {
-        return 'hello';
+        return 'non veg make';
     }
 
     public function leyBread()

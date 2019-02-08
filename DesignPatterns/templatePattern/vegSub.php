@@ -17,7 +17,7 @@ class vegSub
             ->addLettuce()
             ->addVeg()
             ->addSauces();*/
-        return 'make';
+        return 'veg make';
     }
 
     public function layBread()
