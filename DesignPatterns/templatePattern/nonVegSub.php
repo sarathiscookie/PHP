@@ -9,30 +9,12 @@
 namespace Template;
 
 
-class nonVegSub
+class nonVegSub extends abstractVegNonVeg
 {
-    public function make()
+    public function addMealType()
     {
-        return 'non veg make';
-    }
+        echo 'Add some turkey.';
 
-    public function leyBread()
-    {
-        return 'Lay down on the bread';
-    }
-
-    public function addLettuce()
-    {
-        return 'Add some lettuce';
-    }
-
-    public function addTurkey()
-    {
-        return 'Add some turkey';
-    }
-
-    public function addSauces()
-    {
-        return 'Add oil and vinegar';
+        return $this;
     }
 }

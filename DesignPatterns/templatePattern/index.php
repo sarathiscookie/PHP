@@ -10,6 +10,12 @@ require '../../vendor/autoload.php';
 
 use Template\vegSub;
 
-$obj = new vegSub;
+use Template\nonVegSub;
 
-echo $obj->make();
+$veg       = new vegSub;
+
+$nonVegSub = new nonVegSub;
+
+$veg->make();
+
+$nonVegSub->make();
