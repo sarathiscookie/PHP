@@ -13,8 +13,8 @@ class CreditCard {
 
     public $amount;
 
-    public function payAmount($amount) {
-
-        return 'Amount payed using Credit Card. Amount is '. $amount;
+    public function payAmount($amount)
+    {
+        return 'Payed using Credit Card and amount is '. $amount . '. ';
     }
 }
