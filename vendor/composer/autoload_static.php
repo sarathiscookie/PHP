@@ -11,6 +11,7 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
         array (
             'Traits\\' => 7,
             'Tour\\' => 5,
+            'Template\\' => 9,
         ),
         'D' => 
         array (
@@ -32,6 +33,10 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
         'Tour\\' => 
         array (
             0 => __DIR__ . '/../..' . '/namespaceAndAutoloadTwo',
+        ),
+        'Template\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/TemplatePattern/templatePattern',
         ),
         'Decorator\\' => 
         array (

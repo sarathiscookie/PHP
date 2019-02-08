@@ -5,8 +5,9 @@
       "Tour\\":"namespaceAndAutoloadTwo",
       "Abstractt\\":"abstractNamespaceAutoload",
       "Traits\\":"traits",
+      "Adapter\\": "DesignPatterns/adapterPattern/",
       "Decorator\\": "DesignPatterns/",
-      "Adapter\\": "DesignPatterns/adapterPattern/"
+      "Template\\": "DesignPatterns/templatePattern/"
     }
   }
 }
