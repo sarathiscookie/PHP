@@ -9,6 +9,7 @@ return array(
     'Traits\\' => array($baseDir . '/traits'),
     'Tour\\' => array($baseDir . '/namespaceAndAutoloadTwo'),
     'Template\\' => array($baseDir . '/DesignPatterns/templatePattern'),
+    'Strategy\\' => array($baseDir . '/DesignPatterns/strategyPattern'),
     'Decorator\\' => array($baseDir . '/DesignPatterns'),
     'App\\' => array($baseDir . '/namespaceAndAutoload'),
     'Adapter\\' => array($baseDir . '/DesignPatterns/adapterPattern'),

@@ -13,6 +13,10 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
             'Tour\\' => 5,
             'Template\\' => 9,
         ),
+        'S' => 
+        array (
+            'Strategy\\' => 9,
+        ),
         'D' => 
         array (
             'Decorator\\' => 10,
@@ -37,6 +41,10 @@ class ComposerStaticInitf519ffdf0f50a3ce6a32de0fefa33d75
         'Template\\' => 
         array (
             0 => __DIR__ . '/../..' . '/DesignPatterns/templatePattern',
+        ),
+        'Strategy\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/DesignPatterns/strategyPattern',
         ),
         'Decorator\\' => 
         array (
