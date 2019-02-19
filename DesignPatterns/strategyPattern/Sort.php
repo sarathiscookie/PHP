@@ -13,7 +13,7 @@ class Sort
 {
     protected $array;
 
-    public $sortingInterface;
+    private $sortingInterface;
 
     public function __construct(SortingInterface $sortingInterface)
     {
