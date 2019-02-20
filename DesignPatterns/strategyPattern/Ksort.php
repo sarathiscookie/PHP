@@ -17,10 +17,14 @@ class Ksort implements SortingInterface
     {
         ksort($array);
 
-        foreach($array as $x=>$x_value)
+        $result = '';
+
+        foreach($array as $key => $values)
         {
-            echo "Key=" . $x . ", Value=" . $x_value;
-            echo "<br>";
+            $result.= "Key=" . $key . ", Value=" . $values;
+            $result.= "<br>";
         }
+
+        return $result;
     }
 }

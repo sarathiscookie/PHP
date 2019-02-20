@@ -9,12 +9,22 @@
 namespace Strategy;
 
 
-class ASort
+class ASort implements SortingInterface
 {
     protected $array;
 
     public function sort($array)
     {
         asort($array);
+
+        $result = '';
+
+        foreach($array as $key => $values)
+        {
+            $result.= "Key=" . $key . ", Value=" . $values;
+            $result.= "<br>";
+        }
+
+        return $result;
     }
 }
